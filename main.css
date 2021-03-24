@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+section {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.tab {
+    width: 40%;
+    height: 2rem;
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top-left-radius: 10px;
+    margin-bottom: 1rem;
+}
+.tab p {
+    color: white;
+    
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 40%;
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #22c1c3;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+}
+.icon span i {
+    color: white;
+}
+.content {
+    display: none;
+}
+.display {
+    display: block;
+}
