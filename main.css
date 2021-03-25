@@ -8,7 +8,7 @@ section {
     margin-left: 3rem;
 }
 .tab {
-    width: 40%;
+
     height: 2rem;
     background: #22c1c3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
